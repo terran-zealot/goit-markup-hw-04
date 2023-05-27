@@ -119,6 +119,16 @@ background-color: #404BBF ;
  
 }
 
+.link-portfolio {
+    text-decoration: none;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 .component-list {
      
     font-weight: 500;
@@ -158,7 +168,8 @@ background-color: #404BBF ;
 /* =============/Components============== */
 /* =============HEADER============== */
 .header {
-    border-bottom: 1px solid #e7e9fc 
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 
@@ -268,7 +279,7 @@ background-color: #404BBF ;
     max-width: 1440px;
  
     background: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -477,7 +488,6 @@ border-radius: 0px 0px 4px 4px
 .title-section-four {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
     margin-bottom: 72px;
 
     font-weight: 600;
