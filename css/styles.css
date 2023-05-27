@@ -124,9 +124,7 @@ background-color: #404BBF ;
 }
 
 .link-portfolio:hover,
-.link-portfolio:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+.link-portfolio:focus
 
 
 .component-list {
@@ -559,12 +557,13 @@ border-radius: 0px 0px 4px 4px
 .flex {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .footer-container {
     width: 264px;
     height: 112px;
+    margin-right: 120px;
     /* display: flex; */
 }
 
@@ -644,8 +643,6 @@ border-radius: 0px 0px 4px 4px
 .footer-link-container {
     width: 208px;
     height: 80px;
-
-    margin-left: 120px;
 }
 
 /* =============/FOOTER============== */
