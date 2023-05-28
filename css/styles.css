@@ -597,16 +597,14 @@ border-radius: 0px 0px 4px 4px
 }
 
 .footer-social {
-    width: 232px;
-    height: 40px;
+
     gap: 16px;
     display: flex;
     justify-content: center;
 }
 
 .footer-social-icon {
-    width: 24px;
-    height: 24px;
+
     fill: #f4f4fd;
 }
 
@@ -632,7 +630,6 @@ border-radius: 0px 0px 4px 4px
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
 }
 
 .footer-social-item:hover, 
@@ -641,8 +638,7 @@ border-radius: 0px 0px 4px 4px
 }
 
 .footer-link-container {
-    width: 208px;
-    height: 80px;
+
 }
 
 /* =============/FOOTER============== */
