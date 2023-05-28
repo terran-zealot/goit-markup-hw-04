@@ -44,26 +44,29 @@ a {
 .contact:hover,
 .contact:focus {
     color: #404bbf ;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
 .menu-item:hover,
 .menu-item:focus {
-    /* color: #404bbf ; */
- 
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    /* width: 67px;
-    height: 4px;
-    left: 0px;
-    top: 44px; */
-
-    /* OCEAN */
-    /* border-bottom: 4px solid #404BBF; */
-    /* background: #404BBF; */
-    /* border-radius: 2px; */
+    color: #404bbf ;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    
+    border-radius: 2px;
+    display: block;
+    
 
 }
+
+/* .menu-item:hover::after,
+.menu-item:focus::after {
+    color: #404bbf ;
+    box-shadow: 0 0 20px 0 #404bbf;
+    width: 64px;
+    height: 4px;
+    display: inline-block;
+} */
 
 .adress:hover,
 .adress:focus {
@@ -180,8 +183,6 @@ background-color: #404BBF ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 
@@ -227,7 +228,7 @@ background-color: #404BBF ;
 
 
 .menu-item {   
-    display: flex;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
